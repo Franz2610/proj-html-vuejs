@@ -1,0 +1,61 @@
+Improntare un'idea di lavoro
+26-27 finire lo scheletro con tutto il lavoro e il 28 completarlo
+
+Non creare delle milestone bensì un idea per come lavorare al meglio e ricordare le idee.
+
+E' un lavoro da fare in più giorni in primo luogo cercare di creare uno scheletro 
+
+HEADER
+A primo impatto vedo una nav bar con un h1 un ul(che si può creare una con data) con d-flex ed una search-bar
+
+poi sotto una sorta di jumbo-hero con h1 p ed un btn e sotto 3 img left person video player e rp 
+vari bg da inserire dopo poichè le img hanno una position 
+
+questo è il primo passaggio da fare con tutte le migliorie da fare venerdì
+
+Cerca di creare vari componenti affichè il lavoro venga pulito.
+
+
+MAIN
+6 sezioni 
+1° è divisa in due parti
+Bg white frase didascalica al centro con dei numeri che staranno a rappresentare il livello questo sembra molto semplice
+sotto 4 card sfalsate di fianco delle delle scritte con una larghezza mirata
+
+2°
+bg diverso
+un p 
+un h3
+ed una serie di card che creando un componente diventa molto semplice, guarda boolflix, sono tutte uguali, nb img cerchio 
+btn-success
+
+3°
+h2
+img-didascalia
+(img ha dell'img posizionarle)
+img aziende sotto
+
+4°
+bg-diverso
+p
+h3
+3 img cal(100% / 3) di w si può creare un componente tutte uguali
+
+5°
+p
+h3 
+uguale ad dc comics 
+img sotto
+
+6°
+p 
+h4/5
+btn-success
+bg
+
+FOOTER
+Link guardare la molisana o dccomics uguale 
+molto semplice usare un v-for in un v-for per la parte a destra 
+a sinistra anche icone sotto
+
+
