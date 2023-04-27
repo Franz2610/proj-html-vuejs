@@ -19,5 +19,9 @@ import {navUl} from '../assets/data' ;
 </script>
 
 <style lang="scss" scoped>
+a{
+    text-decoration: none;
+    color: white;
+}
 
 </style>

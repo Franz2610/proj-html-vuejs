@@ -1,10 +1,13 @@
 <template>
     <header>
-        <div class="d-flex">
-            <h1>Max Coach</h1>
+        <div class="d-flex container">
+            <img src="/img/light-logo.png" alt="light-logo">
             <TopBar/>
-            <i class="fa-solid fa-circle-user"></i>
-            <input type="text" name="searchBar" id="searchBar" placeholder="Search" class="rounded-3"/> <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="searchbar">
+                <i class="fa-solid fa-circle-user"></i>
+                <input type="text" name="searchBar" id="searchBar" placeholder="Search" class="rounded"/> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
         <HeaderAppDown/>
     </header>
@@ -23,5 +26,14 @@ import HeaderAppDown from './HeaderAppDown.vue'
 </script>
 
 <style lang="scss" scoped>
+header{
+    background-image: url('/public/img/background-pattern-grid-line.png');
+    background-image: url('/public/img/jumbotron-background-wave-small.svg');
+    background-image: url('/public/img/jumbotron-background-wave-medium.svg');
+    background-image: url('/public/img/jumbotron-background-wave-big.svg');
+    background-color: rgb(6, 6, 97);
+    color: white;
+}
+
 
 </style>
