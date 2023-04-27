@@ -33,7 +33,10 @@ header{
     background-image: url('/public/img/jumbotron-background-wave-big.svg');
     background-color: rgb(6, 6, 97);
     color: white;
+    position: relative;
+    height: 750px;
 }
-
-
+.searchbar{
+    margin-left: 20px;
+}
 </style>

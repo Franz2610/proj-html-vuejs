@@ -63,45 +63,45 @@ const cardService = [
 ]
 const cardFeutures = [
     {
-        price: '40',
+        price: '40.00',
         name: 'Learning to Write as a Professional Autor',
         lesson: '20',
         students: '50',
         img:'/public/img/course-02-480x298.jpg'
     },
     {
-        price: '40',
-        name: 'Learning to Write as a Professional Autor',
-        lesson: '20',
-        students: '50',
+        price: '19.00',
+        name: 'Open Programming CCourses for Everyone : Python',
+        lesson: '17',
+        students: '62',
         img:'/public/img/stock-full-hd-04-480x298.jpg'
     },
     {
-        price: '40',
-        name: 'Learning to Write as a Professional Autor',
-        lesson: '20',
-        students: '50',
+        price: '39.00',
+        name: 'Master jQuery in a Short Period at Time',
+        lesson: '6',
+        students: '51',
         img:'/public/img/course-featured-image-01-480x298.jpg'
     },
     {
-        price: '40',
-        name: 'Learning to Write as a Professional Autor',
-        lesson: '20',
-        students: '50',
+        price: 'Free',
+        name: 'Customer-centric Info-Tech Strategies',
+        lesson: '24',
+        students: '269',
         img:'/public/img/stock-full-hd-03-480x298.jpg'
     },
     {
-        price: '40',
-        name: 'Learning to Write as a Professional Autor',
-        lesson: '20',
-        students: '50',
+        price: '26.00',
+        name: 'Academic Listening and Note-taking',
+        lesson: '14',
+        students: '67',
         img:'/public/img/stock-full-hd-06-480x298.jpg'
     },
     {
-        price: '40',
-        name: 'Learning to Write as a Professional Autor',
-        lesson: '20',
-        students: '50',
+        price: '59.00',
+        name: 'Introduction to Javascript for Beginners',
+        lesson: '14',
+        students: '76',
         img:'/public/img/stock-full-hd-05-480x298.jpg'
     }
 ]

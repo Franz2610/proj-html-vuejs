@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="text-center mt-5">
         <h1>Learn At Your Own Pace!</h1>
         <p>Get teamed uo whit people of the same will</p>
         <button class="btn btn-success py-4"> Get started for free</button>
@@ -19,18 +19,29 @@
 
 <style lang="scss" scoped>
 .hero-img{
-    width: 800px;
+    width: 1000px;
     margin: 100px;
     display: flex;
     justify-content: center;
     align-items: end;
+    padding-left: 300px;
+    position: absolute;
 }
 .centerplay{
         width: 100%;
+        z-index: 1000;
     }
-.leftperson, .rightperson{
-    width: 150px;
-    height: 150px;
-
+.leftperson{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-right: 830px;
+}
+.rightperson{
+    width: 180px;
+    height: 120px;
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 20px;
 }
 </style>

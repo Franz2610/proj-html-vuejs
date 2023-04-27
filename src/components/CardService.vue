@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap m-0 p-0">
         <div class="card-wrap" v-for="(card, index) in cards" :key="index">
             <div class="card">
                 <div class="card-head text-center">
@@ -28,10 +28,10 @@ import { cardService} from '../assets/data';
 
 <style lang="scss" scoped>
 .card{
-    //width: 300px;
+    width: 300px;
 }
 .card-wrap{
-    width: calc(100% / 2);
+    width: 40%;
     height: calc(100% / 2);
 }
 

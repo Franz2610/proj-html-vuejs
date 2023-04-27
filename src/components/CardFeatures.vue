@@ -5,12 +5,12 @@
                 <div>
                     <img :src="card.img" :alt="card.first">
                 </div>
-                <div class="">
-                    <p>{{ card.price }}</p>
-                    <p>{{ card.name }}</p>
-                    <div class="d-flex tex-center align-items-center justify-content-center number">
-                        <p class="m-2"> <i class="fa-solid fa-file-lines"></i> {{ card.lesson }}</p>
-                        <p class="m-2"> <i class="fa-regular fa-user"></i>{{ card.students }}</p>
+                <div class="text-start">
+                    <h4> $ {{ card.price }} </h4>
+                    <p>{{ card.name }} </p>
+                    <div class="d-flex  number">
+                        <p class="m-2"> <i class="fa-solid fa-file-lines"></i> {{ card.lesson }} Lessons</p>
+                        <p class="m-2"> <i class="fa-regular fa-user"></i> {{ card.students }} Students</p>
                     </div>
                 </div>
                 
@@ -40,6 +40,13 @@ img{
     width: 70%;
     height: 70%;
     border-radius: 50%;
+}
+h4{
+    color: rgb(71, 176, 132);
+}
+.number {
+    font-size: 13px;
+    color: rgba(172, 167, 167, 0.853);
 }
 
 </style>
