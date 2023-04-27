@@ -47,8 +47,8 @@ import CardService from './CardService.vue'
 </script>
 
 <style lang="scss" scoped>
-.card-wrapper{
+/*.card-wrapper{
     height: 650px;
-}
+}*/
 
 </style>

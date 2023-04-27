@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="col  card-wrap" v-for="(card, index) in cards" :key="index">
+    <div class="d-flex flex-wrap">
+        <div class="card-wrap" v-for="(card, index) in cards" :key="index">
             <div class="card">
                 <div class="card-head text-center">
                     <h3>{{ card.first }}</h3>
@@ -28,15 +28,11 @@ import { cardService} from '../assets/data';
 
 <style lang="scss" scoped>
 .card{
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
+    //width: 300px;
 }
 .card-wrap{
-    flex-direction: row;
-
+    width: calc(100% / 2);
+    height: calc(100% / 2);
 }
 
 </style>
