@@ -1,7 +1,7 @@
 <template>
     <div class="container mt-5">
         <div class="text-center intestazione align-items-center">
-            <h5 class="strong fs-3"> Let passion and determination be the guide along the way and develop at your own pace that's confortable.</h5>
+            <h5 class="strong fs-2"> Let passion and determination be the guide along the way and develop at your own pace that's confortable.</h5>
             <h6 class="mt-3">Funnie Moreno</h6>
             <p class="mt-1">/Founder & CEO</p>
         </div>
@@ -52,6 +52,7 @@ import CardService from './CardService.vue'
 }*/
 .intestazione{
     width: 650px;
+    height: 380px;
     margin-left: 300px;
     margin-top: 200px;
     p{

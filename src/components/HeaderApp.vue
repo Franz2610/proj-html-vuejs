@@ -4,7 +4,7 @@
             <img src="/img/light-logo.png" alt="light-logo">
             <TopBar/>
             <div class="searchbar">
-                <i class="fa-solid fa-cart-shopping"><span>0</span></i>
+                <i class="fa-solid fa-cart-shopping "><span>0</span></i>
                 <i class="fa-solid fa-circle-user"></i>
                 <input type="text" name="searchBar" id="searchBar" placeholder="Search" class="rounded"/> 
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -56,7 +56,7 @@ i span{
 }
 .fa-cart-shopping{
     position: relative;
-    margin-right: 8px;
+    margin-right: 12px;
 }
 .lateralBar{
 position:fixed !important;

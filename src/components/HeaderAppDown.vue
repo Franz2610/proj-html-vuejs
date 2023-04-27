@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center mt-5 text-white">
+    <div class="text-center mt-5 text-white wave">
         <h1>Learn At Your Own Pace!</h1>
         <p>Get teamed uo whit people of the same will</p>
         <button class="btn btn-success py-4"> Get started for free</button>
@@ -18,6 +18,12 @@
 </script>
 
 <style lang="scss" scoped>
+.wave{
+    background-image: url('/public/img/background-pattern-grid-line.png');
+    background-image: url('/public/img/jumbotron-background-wave-small.svg');
+    background-image: url('/public/img/jumbotron-background-wave-medium.svg');
+    background-image: url('/public/img/jumbotron-background-wave-big.svg');
+}
 .hero-img{
     width: 1000px;
     margin: 100px;
@@ -26,6 +32,10 @@
     align-items: end;
     padding-left: 300px;
     position: absolute;
+    background-image: url('/public/img/background-pattern-grid-line.png');
+    background-image: url('/public/img/jumbotron-background-wave-small.svg');
+    background-image: url('/public/img/jumbotron-background-wave-medium.svg');
+    background-image: url('/public/img/jumbotron-background-wave-big.svg');
 }
 .centerplay{
         width: 100%;
@@ -36,6 +46,10 @@
     height: 200px;
     position: absolute;
     margin-right: 830px;
+    background-image: url('/public/img/background-pattern-grid-line.png');
+    background-image: url('/public/img/jumbotron-background-wave-small.svg');
+    background-image: url('/public/img/jumbotron-background-wave-medium.svg');
+    background-image: url('/public/img/jumbotron-background-wave-big.svg');
 }
 .rightperson{
     width: 180px;
@@ -43,6 +57,10 @@
     position: absolute;
     margin-left: 880px;
     margin-top: 20px;
+    background-image: url('/public/img/background-pattern-grid-line.png');
+    background-image: url('/public/img/jumbotron-background-wave-small.svg');
+    background-image: url('/public/img/jumbotron-background-wave-medium.svg');
+    background-image: url('/public/img/jumbotron-background-wave-big.svg');
 }
 button:hover{
     background-color: rgba(56, 56, 173, 0.764);
