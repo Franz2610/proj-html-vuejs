@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center mt-5">
+    <div class="text-center mt-5 text-white">
         <h1>Learn At Your Own Pace!</h1>
         <p>Get teamed uo whit people of the same will</p>
         <button class="btn btn-success py-4"> Get started for free</button>
@@ -43,5 +43,11 @@
     position: absolute;
     margin-left: 880px;
     margin-top: 20px;
+}
+button:hover{
+    background-color: rgba(56, 56, 173, 0.764);
+    color: white;
+    transition: 2s;
+    padding: 25px;
 }
 </style>

@@ -37,8 +37,9 @@ import { cardFeutures} from '../assets/data';
 }
 
 img{
-    width: 70%;
-    height: 70%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 50%;
 }
 h4{
