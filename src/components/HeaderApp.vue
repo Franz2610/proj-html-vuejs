@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="">
         <div class="d-flex container">
             <img src="/img/light-logo.png" alt="light-logo">
             <TopBar/>

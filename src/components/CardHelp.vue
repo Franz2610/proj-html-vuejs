@@ -1,12 +1,12 @@
 <template>
     <div class="d-flex">
         <div class="  card-wrap" v-for="(card, index) in cards" :key="index">
-            <div>
-                <div>
+            <div class="mb-5 mt-5 text-start">
+                <div class="justify-content-start">
                     <img :src="card.img" :alt="card.first">
                 </div>
-                <div class="paragraph">
-                    <h5>{{ card.first }}</h5>
+                <div class="paragraph text-start">
+                    <h4>{{ card.first }}</h4>
                     <p>{{ card.second }}</p>
                 </div>
                 
@@ -33,7 +33,7 @@ import { cardHelp} from '../assets/data';
 }
 
 img{
-    width: 50%;
+    width: 40%;
     //height: 70%;
 }
 .paragraph{

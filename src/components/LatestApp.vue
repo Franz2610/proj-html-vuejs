@@ -1,9 +1,11 @@
 <template>
-    <div class="text-center">
-        <p class="text-uppercase"> enjoy reading on maxcoach</p>
-        <h3>Latest on Our Blogs</h3>
+<div class="wrapper-latest">
+    <div class="text-center container">
+        <p class="text-uppercase number"> enjoy reading on maxcoach</p>
+        <h3>Latest on <span>Our Blogs</span> </h3>
         <CardLatest/>
     </div>
+</div>
 </template>
 
 <script>
@@ -17,5 +19,15 @@ import CardLatest from './CardLatest.vue';
 </script>
 
 <style lang="scss" scoped>
+.number {
+    font-size: 13px;
+    color: rgba(172, 167, 167, 0.853);
+}
+.wrapper-latest{
+    background-color: rgb(243, 243, 243);
+}
+span{
+    color: rgb(71, 176, 132);
+}
 
 </style>

@@ -3,11 +3,11 @@
         <div class=" d-flex card-wrap" v-for="(card, index) in cards" :key="index">
             <div class="text-start">
                     <img :src="card.img" :alt="card.name">
-                    <p>{{ card.role }}</p>
+                    <p class="number text-uppercase">{{ card.role }}</p>
                     <h4>{{ card.name }}</h4>
                     <div class="d-flex text-start">
-                        <p class="m-2"> <i class="fa-regular fa-calendar"></i>{{ card.date }}</p>
-                        <p class="m-2"> <i class="fa-solid fa-eye"></i>{{ card.views }}</p>
+                        <p class="m-2"> <i class="fa-regular fa-calendar"></i> {{ card.date }}</p>
+                        <p class="m-2"> <i class="fa-solid fa-eye"></i> {{ card.views }}</p>
                     </div>                
             </div>
         </div>
@@ -34,6 +34,10 @@ import { cardLatest} from '../assets/data';
 
 img{
     width: 90%;
+}
+.number {
+    font-size: 13px;
+    color: rgba(172, 167, 167, 0.853);
 }
 
 </style>

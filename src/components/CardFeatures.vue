@@ -1,7 +1,7 @@
 <template>
     <div class="d-flex flex-wrap">
         <div class=" d-flex card-wrap" v-for="(card, index) in cards" :key="index">
-            <div class="d-flex">
+            <div class="d-flex card-d">
                 <div>
                     <img :src="card.img" :alt="card.first">
                 </div>
@@ -48,5 +48,8 @@ h4{
     font-size: 13px;
     color: rgba(172, 167, 167, 0.853);
 }
-
+.card-d:hover{
+    background-color: white;
+    transition: 1s;
+}
 </style>

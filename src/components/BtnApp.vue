@@ -1,7 +1,7 @@
 <template>
-    <div class="align-items-center justify-content-center text-center">
-        <h5>Start today for getting Online Certificate</h5>
-        <h4>You can be your own guiding star with our help</h4>
+    <div class="align-items-center justify-content-center text-center btn-wrapper">
+        <h6>Start today for getting <span>Online Certificate</span> </h6>
+        <h3 class="mb-4">You can be your own guiding star with our help</h3>
         <button class="btn btn-success">
             Get started now
         </button>
@@ -16,7 +16,15 @@
 
 <style lang="scss" scoped>
 button{
-    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+span{
+    color: rgb(71, 176, 132);
+}
+.btn-wrapper{
+    margin-top: 30px;
+    height: 300px;
 }
 
 </style>

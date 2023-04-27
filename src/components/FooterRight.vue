@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex">
+    <div class="d-flex footerR">
         <ul v-for="(list, index) in lists" :key="index" class="footer-links">
                 <h6>{{ list.title }}</h6>
                 <div class="links">
@@ -29,6 +29,10 @@ ul{
 }
 a{
     text-decoration: none;
+    color: rgba(139, 137, 137, 0.853);
+}
+.footerR{
+    margin-left: 300px;
 }
 
 

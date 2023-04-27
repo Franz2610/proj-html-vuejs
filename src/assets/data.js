@@ -131,22 +131,22 @@ const cardLatest = [
 const cardHelp = [
     {
         first: 'Idea discussion',
-        second: 'Get ',
-        img: '/public/img/flag.png'
+        second: 'Get teamed up with the specialists who work and teach coding for years at famous university.',
+        img: '/public/img/flag1.png'
     },
     {
         first: 'Web development',
-        second: 'Learn',
-        img: '/public/img/rotella.png'
+        second: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.',
+        img: '/public/img/rotella1.png'
     },
     {
         first: 'System Admnistration',
-        second: 'Learners',
-        img: '/public/img/salvagente.png'
+        second: 'Learners are encouraged to study the mechanism and structure of system administration.',
+        img: '/public/img/salvagente1.png'
     },
     {
         first: 'Graphic Design',
-        second: 'Have a passion',
+        second: 'Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness.',
         img: '/public/img/pc.png'
     },
 ]
