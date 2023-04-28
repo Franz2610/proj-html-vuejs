@@ -25,6 +25,7 @@ import CardLatest from './CardLatest.vue';
 }
 .wrapper-latest{
     background-color: rgb(243, 243, 243);
+    padding: 50px;
 }
 span{
     color: rgb(71, 176, 132);

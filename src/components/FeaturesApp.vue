@@ -26,6 +26,7 @@ import CardFeatures from './CardFeatures.vue';
 .features-wrapper{
     background-color: rgb(243, 243, 243);
     margin-top: 100px;
+    padding: 100px;
 }
 .numbers-p {
     font-size: 14px;
@@ -37,7 +38,7 @@ span{
 button{
     padding-left: 44px;
     padding-right: 44px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-top: 50px;
 }
 button:hover{

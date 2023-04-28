@@ -40,6 +40,10 @@ import FooterRight from './FooterRight.vue';
 .numbers{
     color: rgba(139, 137, 137, 0.853);
 }
+footer{
+    padding: 80px;
+    background-color: rgb(243, 243, 243);
 
+}
 
 </style>
