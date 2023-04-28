@@ -4,15 +4,18 @@
         <p>Get teamed uo whit people of the same will</p>
         <button class="btn btn-success py-4"> Get started for free</button>
         <div class="d-flex hero-img">
-            <img class="leftperson" src="../../public/home-6-hero-left-person.png" alt="left-person">
-            <img class="centerplay" src="../../public/video-screen.png" alt="video-screen">
-            <img class="rightperson" src="../../public/home-6-hero-right-person.png" alt="right-person">
+            <img class="leftperson" src="/public/home-6-hero-left-person.png" alt="left-person">
+            <div class="border-img">
+                <img class="centerplay" src="/public/video-screen.png" alt="video-screen">
+            </div>
+            <img class="rightperson" src="/public/home-6-hero-right-person.png" alt="right-person">
         </div>
     </div>
 </template>
 
 <script>
     export default {
+        name:'HeaderAppDown'
         
     }
 </script>
@@ -37,9 +40,21 @@
     background-image: url('/public/img/jumbotron-background-wave-medium.svg');
     background-image: url('/public/img/jumbotron-background-wave-big.svg');
 }
+.border-img{
+    border: 30px solid white;
+    border-radius: 10%;
+    z-index: 1000;
+}
 .centerplay{
         width: 100%;
         z-index: 1000;
+        object-fit: contain;
+        border-radius: 15px;
+        &:hover{
+            width: 650px;
+            transition: 2s;
+            justify-content: center;
+        }
     }
 .leftperson{
     width: 200px;

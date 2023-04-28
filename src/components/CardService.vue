@@ -6,7 +6,7 @@
                     <h3>{{ card.first }}</h3>
                 </div>
                 <div class="card-body text-center">
-                    <p>{{ card.second }}</p>
+                    <p class="fs-6">{{ card.second }}</p>
                     <img :src="card.img" :alt="card.first">
                 </div>
             </div>
@@ -28,11 +28,20 @@ import { cardService} from '../assets/data';
 
 <style lang="scss" scoped>
 .card{
-    width: 300px;
+    width: 270px;
+    margin-bottom: 10px;
+    border: 0px;
+    box-shadow: 3px 1px 1px rgb(115, 115, 115);
+}
+.card-body{
+    box-shadow: 20px;
 }
 .card-wrap{
     width: 40%;
     height: calc(100% / 2);
+}
+p{
+    color: rgb(115, 115, 115) ;
 }
 
 </style>

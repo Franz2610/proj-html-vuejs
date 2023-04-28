@@ -42,22 +42,22 @@ const numService = [
 const cardService = [
     {
         first: 'Graphic Design',
-        second: 'Have a passion for a graphics and arts?',
+        second: 'Have a passion for a graphics and arts? Show your talents with confidence and self-assertiveness.',
         img: '/public/img/home-6-service-image-01.png'
     },
     {
         first: 'Business Administrations',
-        second: 'Enrolled Learners',
+        second: 'Learners are encouraged to study the mechanism and structure of system administsration.',
         img: '/public/img/home-6-service-image-02.png'
     },
     {
         first: 'Idea Discussion',
-        second: 'Online Istructions',
+        second: 'Get teamed up with the specialist who work and teach coding for years at famous universities.',
         img: '/public/img/home-6-service-image-03.png'
     },
     {
         first: 'Web Development',
-        second: 'Satisfaction Rate',
+        second: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.',
         img: '/public/img/home-6-service-image-04.png'
     },
 ]

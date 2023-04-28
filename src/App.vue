@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="wrapper-proj">
     <HeaderApp />
     <MainApp/>
     <FooterApp/>
@@ -21,5 +21,8 @@ import FooterApp from './components/FooterApp.vue';
 </script>
 
 <style lang="scss" scoped>
+.wrapper-proj{
+  overflow-y:unset;
+}
 
 </style>

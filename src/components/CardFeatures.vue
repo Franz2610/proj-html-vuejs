@@ -1,8 +1,8 @@
 <template>
     <div class="d-flex flex-wrap">
         <div class=" d-flex card-wrap" v-for="(card, index) in cards" :key="index">
-            <div class="d-flex card-d">
-                <div>
+            <div class="d-flex card-d mb-4">
+                <div class="m-3">
                     <img :src="card.img" :alt="card.first">
                 </div>
                 <div class="text-start">

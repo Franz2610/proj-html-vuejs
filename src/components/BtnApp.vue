@@ -23,8 +23,14 @@ span{
     color: rgb(71, 176, 132);
 }
 .btn-wrapper{
-    margin-top: 30px;
+    margin-top: 100px;
     height: 300px;
+}
+button:hover{
+    background-color: rgba(56, 56, 173, 0.764);
+    color: white;
+    transition: 2s;
+    padding: 25px;
 }
 
 </style>
