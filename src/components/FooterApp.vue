@@ -43,7 +43,6 @@ import FooterRight from './FooterRight.vue';
 footer{
     padding: 80px;
     background-color: rgb(243, 243, 243);
-
 }
 
 </style>

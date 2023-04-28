@@ -20,7 +20,6 @@
             <img class="m-5" src="/public/img/client-logo-colored-05.png" alt="logoclient-5">
             <img class="m-5" src="/public/img/client-logo-colored-06.png" alt="logoclient-6">
         </div>
-
     </div>
 </template>
 

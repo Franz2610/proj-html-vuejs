@@ -4,11 +4,12 @@
         <p>Get teamed uo whit people of the same will</p>
         <button class="btn btn-success py-4"> Get started for free</button>
         <div class="d-flex hero-img">
-            <img class="leftperson" src="/public/home-6-hero-left-person.png" alt="left-person">
+            <img class="leftperson" src="/home-6-hero-left-person.png" alt="left-person">
             <div class="border-img">
-                <img class="centerplay" src="/public/video-screen.png" alt="video-screen">
+                <img class="center" src="/video-screen.png" alt="video-screen">
+                <iframe  class="centerplay" width="420" height="345" src="https://www.youtube.com/watch?v=ElFJ1qcl74U?playlist=tgbNymZ7vqY&loop=1"></iframe>
             </div>
-            <img class="rightperson" src="/public/home-6-hero-right-person.png" alt="right-person">
+            <img class="rightperson" src="/home-6-hero-right-person.png" alt="right-person">
         </div>
     </div>
 </template>
@@ -38,8 +39,8 @@
     border-radius: 10%;
     z-index: 1000;
 }
-.centerplay{
-        width: 100%;
+.center{
+    width: 100%;
         z-index: 1000;
         object-fit: contain;
         border-radius: 15px;
@@ -48,6 +49,14 @@
             transition: 2s;
             justify-content: center;
         }
+}
+.centerplay{
+        width: 10%;
+        height: 10%;
+        border-radius: 15px;
+        position: absolute;
+        background-image: url('/img/icon-youtube-play.png');
+        display: none;
     }
 .leftperson{
     width: 200px;

@@ -43,22 +43,22 @@ const cardService = [
     {
         first: 'Graphic Design',
         second: 'Have a passion for a graphics and arts? Show your talents with confidence and self-assertiveness.',
-        img: '/public/img/home-6-service-image-01.png'
+        img: '/img/home-6-service-image-01.png'
     },
     {
         first: 'Business Administrations',
         second: 'Learners are encouraged to study the mechanism and structure of system administsration.',
-        img: '/public/img/home-6-service-image-02.png'
+        img: '/img/home-6-service-image-02.png'
     },
     {
         first: 'Idea Discussion',
         second: 'Get teamed up with the specialist who work and teach coding for years at famous universities.',
-        img: '/public/img/home-6-service-image-03.png'
+        img: '/img/home-6-service-image-03.png'
     },
     {
         first: 'Web Development',
         second: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.',
-        img: '/public/img/home-6-service-image-04.png'
+        img: '/img/home-6-service-image-04.png'
     },
 ]
 const cardFeutures = [
@@ -111,20 +111,20 @@ const cardLatest = [
         name: 'Brush Strokes Energize Trees in Paintings',
         date: 'May 15, 2020',
         views: '688',
-        img:'/public/img/artist-blog-03-480x325.jpeg'
+        img:'/img/artist-blog-03-480x325.jpeg'
     },
     {
         role: 'artist',
         name: 'Pocket-Sized Notebooks Hold Miniature Paintings',
         date: 'May 15, 2020',
         views: '603',
-        img:'/public/img/artist-blog-01-480x325.jpg'
+        img:'/img/artist-blog-01-480x325.jpg'
     },    {
         role: 'artist',
         name: 'Connection Between Self-Potraits and Identity',
         date: 'May 15, 2020',
         views: '397',
-        img:'/public/img/artist-blog-02-480x325.jpg'
+        img:'/img/artist-blog-02-480x325.jpg'
     },
 ]
 
@@ -132,22 +132,22 @@ const cardHelp = [
     {
         first: 'Idea discussion',
         second: 'Get teamed up with the specialists who work and teach coding for years at famous university.',
-        img: '/public/img/flag1.png'
+        img: '/img/flag1.png'
     },
     {
         first: 'Web development',
         second: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.',
-        img: '/public/img/rotella1.png'
+        img: '/img/rotella1.png'
     },
     {
         first: 'System Admnistration',
         second: 'Learners are encouraged to study the mechanism and structure of system administration.',
-        img: '/public/img/salvagente1.png'
+        img: '/img/salvagente1.png'
     },
     {
         first: 'Graphic Design',
         second: 'Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness.',
-        img: '/public/img/pc.png'
+        img: '/img/pc.png'
     },
 ]
 

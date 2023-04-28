@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center mt-5 mb-5 container">
+    <div class="text-center mt-5 mb-5 container help">
         <p class="text-uppercase numbers-p"> wanna transform your life?</p>
         <h2 class="mb-5">Glad To <span>Help You</span>  Learn</h2>
         <CardHelp/>
@@ -24,8 +24,8 @@ span{
     color: rgb(71, 176, 132);
 }
 .numbers-p {
-    font-size: 13px;
-    color: lightgrey;
+    font-size: 1p8x;
+    color: rgb(111, 100, 100);
 }
 
 </style>

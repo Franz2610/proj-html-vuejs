@@ -34,6 +34,13 @@ import { cardLatest} from '../assets/data';
 
 img{
     width: 90%;
+    transition: 3s;
+
+   &:hover {
+    filter: grayscale(.6) sepia(.3);
+    border-radius: 10%;
+    transform: scale(0.8);
+}
 }
 .number {
     font-size: 13px;
