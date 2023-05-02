@@ -24,12 +24,14 @@ import {rightFooter} from '../assets/data'
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
-    color: rgba(139, 137, 137, 0.853);
+    color: $bg-g;
 }
 .footerR{
     margin-left: 300px;

@@ -19,6 +19,8 @@ import CardLatest from './CardLatest.vue';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .number {
     font-size: 13px;
     color: rgba(172, 167, 167, 0.853);

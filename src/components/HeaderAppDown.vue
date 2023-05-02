@@ -22,6 +22,8 @@
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .wave{
 
 }
@@ -72,9 +74,12 @@
     margin-top: 20px;
 }
 button:hover{
-    background-color: rgba(56, 56, 173, 0.764);
+    background-color: $bg-primary;
     color: white;
     transition: 2s;
     padding: 25px;
+}
+.btn-success{
+    background-color: $btn-green;
 }
 </style>

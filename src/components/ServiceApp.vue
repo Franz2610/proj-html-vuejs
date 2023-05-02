@@ -49,6 +49,8 @@ import CardService from './CardService.vue'
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 /*.card-wrapper{
     height: 650px;
 }*/
@@ -64,7 +66,7 @@ import CardService from './CardService.vue'
     
 }
 span{
-    color: rgb(71, 176, 132);
+    color: $btn-green;
 }
 .numbers-p {
     font-size: 13px;
@@ -85,24 +87,27 @@ span{
         //width: 300px;
     }
     li{
-        color: rgb(134, 133, 133);
+        color: $bg-g;
         //font-size: 14px;
         //margin: 5px;
         //margin-right: 20px;
         
         i{
-            color: rgb(71, 176, 132);
+            color: $btn-green;
         }
     }
 }
 button:hover{
-    background-color: rgba(56, 56, 173, 0.764);
+    background-color: $bg-primary;
     color: white;
     transition: 2s;
     padding: 25px;
 }
 button{
     margin-left: 28px;
+}
+.btn-success{
+    background-color: $btn-green;
 }
 
 

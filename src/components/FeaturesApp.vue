@@ -23,6 +23,16 @@ import CardFeatures from './CardFeatures.vue';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+button:hover{
+    background-color: $bg-primary;
+    color: white;
+    transition: 2s;
+    padding: 25px;
+}
+.btn-success{
+    background-color: $btn-green;
+}
 .features-wrapper{
     background-color: rgb(243, 243, 243);
     margin-top: 100px;
@@ -30,22 +40,16 @@ import CardFeatures from './CardFeatures.vue';
 }
 .numbers-p {
     font-size: 14px;
-    color: rgba(172, 167, 167, 0.853);
+    color: $bg-g;
 }
 span{
-    color: rgb(71, 176, 132);
+    color: $btn-green;
 }
 button{
     padding-left: 44px;
     padding-right: 44px;
     margin-bottom: 20px;
     margin-top: 50px;
-}
-button:hover{
-    background-color: rgba(56, 56, 173, 0.764);
-    color: white;
-    transition: 2s;
-    padding: 25px;
 }
 .w-30{
     width: 970px;

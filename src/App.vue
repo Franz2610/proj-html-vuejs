@@ -21,6 +21,7 @@ import FooterApp from './components/FooterApp.vue';
 </script>
 
 <style lang="scss" scoped>
+
 .wrapper-proj{
   overflow-y:unset;
 }

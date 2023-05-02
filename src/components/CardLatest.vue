@@ -27,6 +27,8 @@ import { cardLatest} from '../assets/data';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .card-wrap{
     width: calc(100% / 2);
     margin-top: 100px;
@@ -44,7 +46,7 @@ img{
 }
 .number {
     font-size: 13px;
-    color: rgba(172, 167, 167, 0.853);
+    color: $bg-g;
 }
 
 </style>

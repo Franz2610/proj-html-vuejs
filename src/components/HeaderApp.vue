@@ -33,6 +33,8 @@ import HeaderAppDown from './HeaderAppDown.vue'
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 header{
     background-image: url('/public/img/background-pattern-grid-line.png');
     background-image: url('/public/img/jumbotron-background-wave-small.svg');

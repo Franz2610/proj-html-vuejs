@@ -20,12 +20,14 @@ import CardHelp from './CardHelp.vue';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 span{
-    color: rgb(71, 176, 132);
+    color: $btn-green;
 }
 .numbers-p {
     font-size: 1p8x;
-    color: rgb(111, 100, 100);
+    color: $bg-g;
 }
 
 </style>

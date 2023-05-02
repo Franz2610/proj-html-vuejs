@@ -15,19 +15,24 @@
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 button{
     padding-left: 55px;
     padding-right: 55px;
 }
+.btn-success{
+    background-color: $btn-green;
+}
 span{
-    color: rgb(71, 176, 132);
+    color: $btn-green;
 }
 .btn-wrapper{
     margin-top: 100px;
     height: 300px;
 }
 button:hover{
-    background-color: rgba(56, 56, 173, 0.764);
+    background-color: $bg-primary;
     color: white;
     transition: 2s;
     padding: 25px;

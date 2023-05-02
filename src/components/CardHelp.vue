@@ -28,6 +28,8 @@ import { cardHelp} from '../assets/data';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .card-wrap{
     width: calc(100% / 4);
 }

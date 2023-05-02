@@ -27,6 +27,8 @@ import { cardService} from '../assets/data';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .card{
     width: 270px;
     margin-bottom: 10px;
@@ -41,7 +43,7 @@ import { cardService} from '../assets/data';
     height: calc(100% / 2);
 }
 p{
-    color: rgb(115, 115, 115) ;
+    color: $bg-g ;
 }
 
 </style>

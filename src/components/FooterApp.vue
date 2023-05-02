@@ -33,12 +33,14 @@ import FooterRight from './FooterRight.vue';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .number {
     font-size: 13px;
-    color: rgba(172, 167, 167, 0.853);
+    color: $bg-g;
 }
 .numbers{
-    color: rgba(139, 137, 137, 0.853);
+    color: $bg-g;
 }
 footer{
     padding: 80px;

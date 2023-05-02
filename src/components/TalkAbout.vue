@@ -30,6 +30,8 @@
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .img-wrapper{
     width: 100%;
     height: 80%;
@@ -51,7 +53,7 @@
     margin-top: 60px;
 }
 span{
-    color: rgb(71, 176, 132);
+    color: $btn-green;
 }
 .img-shape{
     position: relative;

@@ -32,6 +32,8 @@ import { cardFeutures} from '../assets/data';
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/partials/variables" as *;
+
 .card-wrap{
     width: calc(100% / 2);
 }
@@ -43,11 +45,11 @@ img{
     border-radius: 50%;
 }
 h4{
-    color: rgb(71, 176, 132);
+    color: $btn-green;
 }
 .number {
     font-size: 13px;
-    color: rgba(172, 167, 167, 0.853);
+    color: $bg-g;
 }
 .card-d:hover{
     background-color: white;
